@@ -1,10 +1,11 @@
-pandas
-numpy
-pymongo
-certifi
-python-dotenv
-pymongo[srv]==3.6
-scikit-learn
+#pandas
+#numpy
+#pymongo
+#certifi
+#python-dotenv
+#pymongo[srv]==3.6
+#scikit-learn
 #-e .
-
-pyaml
+mlflow
+#dagshub
+#pyaml
