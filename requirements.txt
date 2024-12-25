@@ -7,5 +7,5 @@
 #scikit-learn
 #-e .
 mlflow
-#dagshub
+dagshub
 #pyaml

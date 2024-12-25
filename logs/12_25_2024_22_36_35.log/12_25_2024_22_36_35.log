@@ -1,0 +1,31 @@
+[ 2024-12-25 22:37:01,087 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[ 2024-12-25 22:37:01,572 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[ 2024-12-25 22:37:02,011 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-12-25 22:37:02,016 ] 107 dagshub - INFO - Accessing as Gauravx2
+[ 2024-12-25 22:37:02,482 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Gauravx2/Network_Security "HTTP/1.1 200 OK"
+[ 2024-12-25 22:37:02,896 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-12-25 22:37:02,899 ] 107 dagshub - INFO - Initialized MLflow to track repo "Gauravx2/Network_Security"
+[ 2024-12-25 22:37:02,900 ] 107 dagshub - INFO - Repository Gauravx2/Network_Security initialized!
+[ 2024-12-25 22:37:02,900 ] 19 root - INFO - Initiate the data ingestion
+[ 2024-12-25 22:37:07,616 ] 65 root - INFO - Performed train test split on the dataframe
+[ 2024-12-25 22:37:07,616 ] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2024-12-25 22:37:07,616 ] 75 root - INFO - Exporting train and test file path.
+[ 2024-12-25 22:37:07,696 ] 84 root - INFO - Exported train and test file path.
+[ 2024-12-25 22:37:07,696 ] 21 root - INFO - Data Initiation Completed
+[ 2024-12-25 22:37:07,712 ] 26 root - INFO - Initiate the data Validation
+[ 2024-12-25 22:37:07,791 ] 32 root - INFO - Required number of columns:2
+[ 2024-12-25 22:37:07,791 ] 33 root - INFO - Data frame has columns:31
+[ 2024-12-25 22:37:07,791 ] 32 root - INFO - Required number of columns:2
+[ 2024-12-25 22:37:07,791 ] 33 root - INFO - Data frame has columns:31
+[ 2024-12-25 22:37:07,965 ] 28 root - INFO - data Validation Completed
+[ 2024-12-25 22:37:07,965 ] 32 root - INFO - data Transformation started
+[ 2024-12-25 22:37:07,965 ] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2024-12-25 22:37:07,965 ] 65 root - INFO - Starting data transformation
+[ 2024-12-25 22:37:07,997 ] 48 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2024-12-25 22:37:07,997 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-12-25 22:37:08,013 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-12-25 22:37:08,013 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-12-25 22:37:08,013 ] 46 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-12-25 22:37:08,013 ] 50 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-12-25 22:37:08,013 ] 36 root - INFO - data Transformation completed
+[ 2024-12-25 22:37:08,013 ] 38 root - INFO - Model Training sstared
